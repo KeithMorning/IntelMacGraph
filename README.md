@@ -53,7 +53,7 @@ sudo pmset -a gpuswitch 2  # Automatic
 
 ### Download
 
-[Download GPU Switch 1.2.0 for Intel Mac](dist/GPU-Switch-v1.2.0-macOS-Intel.zip) · [SHA-256 checksums](dist/SHA256SUMS.txt)
+[Download GPU Switch 1.2.0 for Intel Mac](dist/GPU-Switch-v1.2.0-macOS-Intel.zip) · [SHA-256 checksums](dist/SHA256SUMS.txt) · [GitHub Releases](https://github.com/KeithMorning/IntelMacGraph/releases)
 
 The ZIP contains the macOS app. To build it yourself, use macOS 12 or later with an Intel Mac and the Xcode Command Line Tools:
 
@@ -126,7 +126,7 @@ sudo pmset -a gpuswitch 2  # 自动切换
 
 ### 下载
 
-[下载 Intel Mac 版显卡开关 1.2.0](dist/GPU-Switch-v1.2.0-macOS-Intel.zip) · [SHA-256 校验和](dist/SHA256SUMS.txt)
+[下载 Intel Mac 版显卡开关 1.2.0](dist/GPU-Switch-v1.2.0-macOS-Intel.zip) · [SHA-256 校验和](dist/SHA256SUMS.txt) · [GitHub Releases](https://github.com/KeithMorning/IntelMacGraph/releases)
 
 ZIP 文件中包含 macOS 应用。也可以在 macOS 12 或更高版本的 Intel Mac 上使用 Xcode Command Line Tools 自行构建：
 
