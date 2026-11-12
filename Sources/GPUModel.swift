@@ -5,17 +5,17 @@ enum GPUMode: Int, CaseIterable {
 
     var title: String {
         switch self {
-        case .integrated: return "集成显卡"
-        case .discrete: return "独立显卡"
-        case .automatic: return "自动切换"
+        case .integrated: return NSLocalizedString("mode.integrated", comment: "GPU mode")
+        case .discrete: return NSLocalizedString("mode.discrete", comment: "GPU mode")
+        case .automatic: return NSLocalizedString("mode.automatic", comment: "GPU mode")
         }
     }
 
     var badge: String {
         switch self {
-        case .integrated: return "集"
-        case .discrete: return "独"
-        case .automatic: return "自"
+        case .integrated: return NSLocalizedString("mode.integrated.badge", comment: "Menu bar badge")
+        case .discrete: return NSLocalizedString("mode.discrete.badge", comment: "Menu bar badge")
+        case .automatic: return NSLocalizedString("mode.automatic.badge", comment: "Menu bar badge")
         }
     }
 

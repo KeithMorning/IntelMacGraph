@@ -11,5 +11,6 @@ xcrun swiftc -O -target x86_64-apple-macosx12.0 \
     -framework AppKit -o "$app/Contents/MacOS/GPUSwitch"
 cp Resources/Info.plist "$app/Contents/Info.plist"
 cp build/AppIcon.icns "$app/Contents/Resources/AppIcon.icns"
+cp -R Resources/en.lproj Resources/zh-Hans.lproj "$app/Contents/Resources/"
 codesign --force --sign - "$app"
 printf 'Built: %s\n' "$app"
